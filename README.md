@@ -1,6 +1,6 @@
 <div align="center">
   <h1>🧠 Wisdom Generator</h1>
-  <p><b>Instant inspiration for developers & thinkers</b></p>
+  <p><b>Instant inspiration for developers & thinkers</b></p> 
   <a href="https://arsh118.github.io/Wisdom-Generator/">
     <img src="https://img.shields.io/badge/Live%20Demo-Click%20Here-brightgreen?style=for-the-badge" alt="Live Demo"/>
   </a>
