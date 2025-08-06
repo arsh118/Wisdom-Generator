@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wisdom Generator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Wisdom Generator</h1>
+            <p>Inspirational quotes for developers and thinkers</p>
+        </div>
+
+        <div class="wisdom-container">
+            <div class="category-container">
+                <div class="category-title">Filter by category:</div>
+                <div class="categories" id="categories">
+
+                </div>
+            </div>
+
+            <p class="wisdom-text" id="wisdomText">"When the world crashes, developers reboot it."</p>
+            <p class="wisdom-author" id="wisdomAuthor">- Arsh Ahmad</p>
+
+            <div class="controls">
+                <button class="favorite-btn" id="favoriteBtn">
+                    <i class="far fa-heart"></i>
+                </button>
+                <button class="generate-wisdom" id="generateWisdom">
+                    <i class="fas fa-bolt"></i> Inspire Me
+                </button>
+            </div>
+        </div>
+
+        <div class="favorites-container">
+            <div class="favorites-header">
+                <h2><i class="fas fa-bookmark"></i> Favorite Quotes</h2>
+                <button class="clear-favorites" id="clearFavorites">
+                    <i class="fas fa-trash-alt"></i> Clear All
+                </button>
+            </div>
+            <div class="favorites-list" id="favoritesList">
+                <div class="empty-favorites">
+                    <i class="fas fa-book-open"></i>
+                    <p>No favorites yet. Save quotes you love!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>© 2025 Wisdom Generator | Made with <i class="fas fa-heart" style="color: var(--secondary);"></i> for developers</p>
+        </div>
+    </div>
+
+    <div class="notification" id="notification">
+        Quote added to favorites!
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
