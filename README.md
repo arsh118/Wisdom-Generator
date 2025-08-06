@@ -34,17 +34,6 @@
 
 ---
 
-## 🚀 Quickstart
-
-```sh
-# 1. Download or clone this repo
-# 2. Open index.html in your browser
-```
-
-Or just [try the live demo](https://arsh118.github.io/Wisdom-Generator/)!
-
----
-
 ## 📝 Sample Quotes
 
 > "When the world crashes, developers reboot it."  
